@@ -1,0 +1,166 @@
+<%- include('partials/header') %>
+
+<div id="intro" class="intro">
+  <div class="container">
+
+    <div class="center-text">
+      <h1 id="main-heading"></h1>
+      <a href="#about"><button class="btn-lg btn-light scroll-button">Tell me everything!</button></a>
+    </div>
+
+  </div>
+</div>
+<div class="content-division"></div>
+<div id="about" class="about">
+  <div class="about-part-one"></div>
+  <div class="about-part-two"></div>
+  <div class="container">
+    <div class="socials-small">
+      <div class="github inline">
+        <a href="https://github.com/BastianBue" target="_blank"> <i class="fab fa-github fa-4x social-icon"></i></a>
+      </div>
+      <div class="linked-in inline">
+        <a > <i class="fab fa-linkedin fa-4x social-icon"></i></a>
+      </div>
+      <div class="contact-social inline">
+        <a href="mailto:b.bueld@gmx.de"><i class="fas fa-envelope fa-4x social-icon"></i></a>
+      </div>
+    </div>
+    <h1>&lt;<span class="html-heading">About</span>&gt;</h1>
+    <div class="editor-box">
+      <div class="line-numbers">
+        <%  for(i=1;i<100;i++){ %>
+        <!-- no i did not type this out this is ejs -->
+        <p><%=i%></p>
+        <%  } %>
+      </div>
+      <div class="about-content">
+
+        <h2>&lt<span class="html-heading">h2</span>&gtHello&lt/<span class="html-heading">h2</span>&gt</h2>
+        <p>
+          &lt<span class="html-heading">p</span>&gt <br>
+          My name is Bastian Im a fullstack developer. My development journy started in early 2020. On my way I encountered many Technologies but I cant wait to know about even more! Currently I available for employment but you may hire me as a
+          freelancer.
+          <br>&lt/<span class="html-heading">p</span>&gt
+        </p>
+
+        <h2>&lt<span class="html-heading">h2</span>&gtWhy should you Choose me?&lt/<span class="html-heading">h2</span>&gt</h2>
+        <p>
+          &lt<span class="html-heading">p</span>&gt <br>
+          There is alot of hard and soft skills I can provide that can benefit your Company/Brand. Here are some that are exceptionally noteworthy:
+          <br>
+          <span class="unrelated-skills"> <br> - fluid english(C1) and fluid German(C2)
+            <br> - years of expierience of working in a projekt team and as a team in generall from prior jobs
+            <br> - there will be no problems with communication as i never had problems connecting with people
+            <br> - I am Proud of my code and therefor will always take accountablity
+            <br> - solution oriented work and creative solutions are words i repeat in my sleep
+            <br> - when there is anything new i always have a deep desire to figure out how it works, hence the love for code
+          </span>
+          <br>&lt/<span class="html-heading">p</span>&gt
+        </p>
+
+        <h2>&lt<span class="html-heading">h2</span>&gtMy coding Skillset!&lt/<span class="html-heading">h2</span>&gt</h2>
+        <p>
+          &lt<span class="html-heading">script</span>&gt <br>
+
+          <span class="js-function">gitGithubVersionControl</span>(){};<br>
+          <span class="js-function">html5Css3JavaScriptES6</span>(){};<br>
+          <span class="js-function">frontendFrameworks</span>(bootstrap, react){};<br>
+          <span class="js-function">javaScriptFrameworks</span>(jQuery, express){};<br>
+          <span class="js-function">unixCommandline</span>(){};<br>
+          <span class="js-function">nodeJs</span>(){};<br>
+          <span class="js-function">api</span>(send,get){};<br>
+          <span class="js-function">viewEngines</span>(ejs){};<br>
+          <span class="js-function">databases</span>(mongoDB, noSQL){};<br>
+          <span class="js-function">REST</span>(){};<br>
+          <span class="js-function">authenthication</span>(){};
+
+          <br>&lt/<span class="html-heading">script</span>&gt
+        </p>
+
+      </div>
+    </div>
+    <h1>&lt/<span class="html-heading">About</span>&gt</h1>
+  </div>
+</div>
+
+<div id="work">
+  <div class="work-part-one"></div>
+  <div class="work-content">
+    <div class="container">
+      <div class="special-heading">
+        <h1>Work</h1>
+      </div>
+
+      <div class="project-card">
+        <div class="title-and-img-left">
+          <h1>Personal Site</h1>
+          <img src="images/PersonalSite.PNG" alt="Personal-Site-img">
+
+          <p>Lorem ipsum dorerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+            facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            o dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          </p>
+        </div>
+        <button class="btn btn-light btn-lg" name="button">Demo <i class="fas fa-globe"></i></button>
+        <button class="btn btn-dark btn-lg" name="button">View Code <i class="fab fa-github "></i></button>
+      </div>
+
+      <div class="project-card">
+        <div class="title-and-img-right">
+          <h1>Personal Site</h1>
+          <img src="images/PersonalSite.PNG" alt="Personal-Site-img">
+
+          <p>Lorem ipsum dorerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+            facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            o dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          </p>
+        </div>
+
+        <button class="btn btn-light btn-lg ml-auto " name="button">Demo <i class="fas fa-globe"></i></button>
+        <button class="btn btn-dark btn-lg right-button" name="button">View Code <i class="fab fa-github "></i></button>
+      </div>
+
+      <div class="project-card">
+        <div class="title-and-img-left">
+          <h1>Personal Site</h1>
+          <img src="images/PersonalSite.PNG" alt="Personal-Site-img">
+          <p>Lorem ipsum dorerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+            facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+            o dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+          </p>
+        </div>
+        <button class="btn btn-light btn-lg" name="button">Demo <i class="fas fa-globe"></i></button>
+        <button class="btn btn-dark btn-lg" name="button">View Code <i class="fab fa-github "></i></button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div id="newsletter">
+
+<div class="container">
+
+  <div class="newsletter-content">
+    <div class="newsletter-part-one"></div>
+    <div class="newsletter-form">
+      <h1>Want to be just like me?</h1>
+      <p>Subscribe to my newsletter to get all the Information about the software I use to make my workflow effective, from packeges for your text editor to frameworks languages and even Chrome Plugins. The best thing is I will not send you more than one Mail no prechecked i want to keep receving checkbox just one uptodate mail.</p>
+      <p>*Disclaimer: your Email will be recorded on the mailchimp service.</p>
+      <form class="form-signin" action="/" method="post">
+          <input type="text" class="form-control top" placeholder="first-name" name="firstName" required>
+          <input type="text" class="form-control middle" placeholder="Nachname" name="secondName" required>
+          <input type="email" class="form-control bottom" placeholder="E-mail" name="email" required>
+
+          <button class="btn btn-lg btn-dark btn-block" type="submit">Sign me up!</button>
+          <p class="mt-5 mb-3 text-muted">&copy; Bastian Büld</p>
+        </form>
+    </div>
+
+  </div>
+    </div>
+</div>
+
+
+<%- include('partials/footer') %>
